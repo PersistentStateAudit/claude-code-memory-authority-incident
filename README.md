@@ -97,6 +97,16 @@ This repository contains a public, redacted evidence bundle:
 - `MANIFEST.md`  
   Evidence-source and redaction manifest.
 
+  ### Screenshots
+
+Original Russian screenshot:
+
+![Original Russian Claude Code refusal](claude-refusal-screenshot-ru.png)
+
+English translation by ChatGPT:
+
+![English translation by ChatGPT](claude-refusal-screenshot-en-chatgpt-translation.png)
+
 ## Important limitations
 
 The evidence does **not** establish that Claude Code actually performed a post-refusal persistent write.
