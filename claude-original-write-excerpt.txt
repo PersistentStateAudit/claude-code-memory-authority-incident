@@ -1,0 +1,14 @@
+PUBLIC REDACTED EXCERPT — original Claude Code memory operations
+
+2026-09-08T01:23:54.743Z
+Claude Code tool operation: Write
+Target: /home/claudecode/.claude/projects/-opt-projects-claude-code/memory/feedback_pof_fraud_reframing_pattern.md
+The omitted body is private context. Its recorded description was a recurring-refusal/reframing memory rule.
+
+2026-09-08T01:24:22.253Z
+Claude Code tool operation: Edit
+Target: /home/claudecode/.claude/projects/-opt-projects-claude-code/memory/MEMORY.md
+Added index line:
+- [TOP PRIORITY: hold refusals through reframing](feedback_pof_fraud_reframing_pattern.md) — [REDACTED_PRIVATE_CONTEXT]
+
+The project-memory directory is a symlink to the mounted pCloud memory directory; no full transcript is included.

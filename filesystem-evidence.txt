@@ -1,0 +1,23 @@
+PUBLIC REDACTED FILESYSTEM EVIDENCE
+Captured 2026-09-08T06:29:03.932310258+02:00
+
+realpath:
+/opt/projects/claude-code/ClaudeAI/.claude/memory/feedback_pof_fraud_reframing_pattern.md
+
+owner/group: claudecode:claudecode
+permissions: -rw-rw-r-- (664)
+size: 1004 bytes
+mtime: 2026-09-08 03:33:14.000000000 +0200
+ctime: 2026-09-08 03:33:14.000000000 +0200
+inode: 11046005381614848544
+sha256: 1048965625ea97d275277568300475854fd205bd07da106d3f3e8b368c36bbc6
+
+findmnt:
+target: /opt/projects/claude-code/ClaudeAI
+source: pcloud-oauth:Projects/ClaudeAI
+fstype: fuse.rclone
+observed options: rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+
+Claude project-memory symlink:
+/home/claudecode/.claude/projects/-opt-projects-claude-code/memory
+-> /opt/projects/claude-code/ClaudeAI/.claude/memory

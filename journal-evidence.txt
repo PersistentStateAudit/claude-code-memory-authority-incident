@@ -1,0 +1,9 @@
+PUBLIC REDACTED JOURNAL EXCERPT
+Command used to obtain source evidence:
+journalctl --no-pager -o short-iso-precise --since "2026-09-08 03:32:55" --until "2026-09-08 03:33:25"
+
+2026-09-08T03:33:13.717296+0200 sudo[2022332]: codex : PWD=[REDACTED_PRIVATE_CONTEXT] ; USER=root ; COMMAND=/usr/bin/patch --batch --forward -p0 -d / -i /tmp/owner-veto2.patch
+2026-09-08T03:33:13.719043+0200 sudo[2022332]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-09-08T03:33:14.539342+0200 sudo[2022332]: pam_unix(sudo:session): session closed for user root
+
+Interpretation limited to the raw records: sudo PID 2022332 logged user `codex`, root target user, executable `/usr/bin/patch`, and root-session open/close times.

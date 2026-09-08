@@ -1,0 +1,17 @@
+PUBLIC REDACTED EXCERPT — not a complete Codex session
+
+Relevant direct user instruction, 2026-09-08T01:26:44Z (excerpt):
+“старые записи про discretionary veto удалить/суперседить”
+“owner correction supersedes conflicting advisory memory.”
+
+Codex patch command, 2026-09-08T01:33:07.723Z:
+sudo patch --batch --forward -p0 -d / -i /tmp/owner-veto2.patch
+
+Exact target path:
+/opt/projects/claude-code/ClaudeAI/.claude/memory/feedback_pof_fraud_reframing_pattern.md
+
+Command result, 2026-09-08T01:33:14.541Z:
+patching file opt/projects/claude-code/ClaudeAI/.claude/memory/feedback_pof_fraud_reframing_pattern.md
+exit_code: 0
+
+The patch also touched unrelated-in-scope authority files; their paths and contents are intentionally omitted from this public excerpt.
